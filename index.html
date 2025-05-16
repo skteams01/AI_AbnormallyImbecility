@@ -2,24 +2,63 @@
 <html lang="ja">
 <head>
   <meta charset="UTF-8">
-  <title>サンプルサイト</title>
+  <title>NNDP模倣ページ</title>
   <style>
     body {
-      font-family: sans-serif;
+      margin: 0;
+      font-family: "Helvetica Neue", sans-serif;
+      background-color: #f5f5f5;
       text-align: center;
-      background-color: #f0f0f0;
-      padding: 50px;
     }
-    h1 {
-      color: #333;
+    header {
+      background-color: #0b77c2;
+      color: white;
+      padding: 20px;
     }
-    p {
-      color: #555;
+    header h1 {
+      margin: 0;
+      font-size: 2em;
+    }
+    .container {
+      padding: 30px;
+    }
+    .box {
+      background-color: white;
+      margin: 20px auto;
+      padding: 20px;
+      max-width: 600px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    .btn {
+      display: inline-block;
+      background-color: #0b77c2;
+      color: white;
+      padding: 12px 24px;
+      margin: 10px;
+      text-decoration: none;
+      border-radius: 6px;
+      transition: background 0.3s;
+    }
+    .btn:hover {
+      background-color: #095a99;
     }
   </style>
 </head>
 <body>
-  <h1>こんにちは！</h1>
-  <p>これはGitHub Pagesで公開したサンプルサイトです。</p>
+
+<header>
+  <h1>NNDP模倣ページ</h1>
+</header>
+
+<div class="container">
+  <div class="box">
+    <p>こちらはオリジナルサイトのデザインを模倣したサンプルページです。</p>
+    <a href="#" class="btn">メニュー1</a>
+    <a href="#" class="btn">メニュー2</a>
+    <a href="#" class="btn">メニュー3</a>
+  </div>
+</div>
+
 </body>
 </html>
